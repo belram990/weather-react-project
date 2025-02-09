@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-       <Search city="New York" />
+       <Search  />
       
     <footer>
       This project was coded by 👩🏻‍💻 <a href='https://github.com/belram990'>Donabel Liotta</a> and is 

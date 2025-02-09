@@ -7,7 +7,7 @@ import "./App.css";
 import "./Weather.css";
 
 
-export default function Search (props){
+export default function Search (){
 let [city, setCity] = useState("");
 let [showCity, setShowCity]= useState("");
 
@@ -36,7 +36,7 @@ function updateCity(event) {
 </main>
             
             <h1>{showCity}</h1>
-<Temperature />
+<Temperature value="31" />
 
          <section className="forcast"> 
             <p>  

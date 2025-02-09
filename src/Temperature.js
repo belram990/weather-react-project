@@ -5,8 +5,7 @@ import React from "react";
 import "./Weather.css";
 
 export default function Temperature() {
-
-
+  
     return(
            <div>
           Saturday 10:20, few clouds
@@ -15,7 +14,7 @@ export default function Temperature() {
 
                 <section  className="currentTemp"> 
                     <span className="icon">☁️ </span>
-                    <span className="temperature">32</span>
+                    <span className="temperature">31</span>
                     <span className="unit">°F</span>       
                 </section>
              </div>
